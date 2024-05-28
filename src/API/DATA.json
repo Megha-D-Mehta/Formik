@@ -1,0 +1,755 @@
+DATA
+
+{
+  "CourierList": [
+    {
+      "CourierIDEncrypted": "33Im+DaGjbY=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "01 megha",
+      "CourierAddress": "INSERT OR UPDATE",
+      "CountryCode": "+91",
+      "MobileNo": "3483474834",
+      "EmailID": "sd@ed.ed",
+      "ContactPersonName": "sijdid",
+      "WebLink": "\\zxdfvghjkl;",
+      "CreatedDate": "07-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 1
+    },
+
+    {
+      "CourierIDEncrypted": "9hmdvyg8Ma8=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m01",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m01.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m01.com",
+      "CreatedDate": "27-Feb-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 2
+    },
+
+    {
+      "CourierIDEncrypted": "tjowHE78yr0=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m01 abcd m01 abcd",
+      "CourierAddress": "hjgiuiubhi\nm01 abcdm01 abcdm01 abcdm01 abcdm01 abcdm01 abcdm01 abcd\nm01 abcdm01 abcdm01 abcd",
+      "CountryCode": "+91",
+      "MobileNo": "283908293383",
+      "EmailID": "m01@ab.cd",
+      "ContactPersonName": "m01 abcd m01 abcd",
+      "WebLink": "m01 abcd",
+      "CreatedDate": "07-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 3
+    },
+
+    {
+      "CourierIDEncrypted": "3l2piq9RHi0=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m011megha",
+      "CourierAddress": "dckjsf ofbhhgf    kvjhdbguhgiufhfuigkjf",
+      "CountryCode": "+91",
+      "MobileNo": "87378484839",
+      "EmailID": "ds@df.df",
+      "ContactPersonName": "m01 kledjkdfjkdfnfjknfjkf",
+      "WebLink": "ujdfjksdkf fjjdbjfdui   f",
+      "CreatedDate": "07-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 4
+    },
+
+    {
+      "CourierIDEncrypted": "0AUt9qNzcSQ=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m02",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m02.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m02.com",
+      "CreatedDate": "27-Feb-2024",
+      "IsActive": false,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 5
+    },
+
+    {
+      "CourierIDEncrypted": "bmlRLswK8bA=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m03 jdkjsdkjdflkfdfkj",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m03.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m03.com",
+      "CreatedDate": "27-Feb-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 6
+    },
+
+    {
+      "CourierIDEncrypted": "ahJSgf9dPQ4=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m04",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m04.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m04.com",
+      "CreatedDate": "27-Feb-2024",
+      "IsActive": false,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 7
+    },
+
+    {
+      "CourierIDEncrypted": "NVDzNfEUOVM=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m05",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m05.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m05.com",
+      "CreatedDate": "27-Feb-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 8
+    },
+
+    {
+      "CourierIDEncrypted": "+kGW/pgSGw8=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m06",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m06.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m06.com",
+      "CreatedDate": "27-Feb-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 9
+    },
+
+    {
+      "CourierIDEncrypted": "SIFJWk3JK3M=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m07",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m07.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m07.com",
+      "CreatedDate": "27-Feb-2024",
+      "IsActive": false,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 10
+    },
+
+    {
+      "CourierIDEncrypted": "jxMzkJ/KOS4=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m08",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m08.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m08.com",
+      "CreatedDate": "27-Feb-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 11
+    },
+
+    {
+      "CourierIDEncrypted": "q26tmoxzfxc=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m09",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m09.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m09.com",
+      "CreatedDate": "27-Feb-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 12
+    },
+
+    {
+      "CourierIDEncrypted": "3PtF1k5LjH4=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m10",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m10.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m10.com",
+      "CreatedDate": "27-Feb-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 13
+    },
+
+    {
+      "CourierIDEncrypted": "M9F+e9529/8=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m11",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m11.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m11.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 14
+    },
+
+    {
+      "CourierIDEncrypted": "Mbtub8tD95k=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m12",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m12.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m12.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 15
+    },
+
+    {
+      "CourierIDEncrypted": "5zknho9wsCg=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m13",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m13.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m13.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 16
+    },
+
+    {
+      "CourierIDEncrypted": "fd+qM9fiYcY=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m14",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m14.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m14.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 17
+    },
+
+    {
+      "CourierIDEncrypted": "xkelsUQ5h9Y=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m15",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m15.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m15.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 18
+    },
+
+    {
+      "CourierIDEncrypted": "VoIVIrhcAXM=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m16",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m16.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m16.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 19
+    },
+
+    {
+      "CourierIDEncrypted": "BJIdToDGISE=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m17",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m17.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m17.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 20
+    },
+
+    {
+      "CourierIDEncrypted": "JgUUmee2ozY=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m18",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m18.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m18.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 21
+    },
+
+    {
+      "CourierIDEncrypted": "hIQdxZ7gKa0=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m19",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "01234567890",
+      "EmailID": "m@m19.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m19.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 22
+    },
+
+    {
+      "CourierIDEncrypted": "s50wWNmDVRQ=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m20",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m20.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m20.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 23
+    },
+
+    {
+      "CourierIDEncrypted": "w0c0R4MbZ8g=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m21",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m21.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m21.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 24
+    },
+
+    {
+      "CourierIDEncrypted": "D8VjuzoDL80=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m22",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m22.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m22.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 25
+    },
+
+    {
+      "CourierIDEncrypted": "Ep8JAVmio+Y=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m23",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m23.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m23.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 26
+    },
+
+    {
+      "CourierIDEncrypted": "X0Rv7tcTeP4=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m24",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m24.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m24.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 27
+    },
+
+    {
+      "CourierIDEncrypted": "Y2/o01g0tMM=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m25",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m25.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m25.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": false,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 28
+    },
+
+    {
+      "CourierIDEncrypted": "yD6UX4l3nYA=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "m26",
+      "CourierAddress": "Ahmedabad",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "m@m26.com",
+      "ContactPersonName": "megha",
+      "WebLink": "m26.com",
+      "CreatedDate": "06-Mar-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 29
+    },
+
+    {
+      "CourierIDEncrypted": "5OSLXeZUI28=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "Maruti Courier",
+      "CourierAddress": "Ashram road",
+      "CountryCode": "+91",
+      "MobileNo": "1234567890",
+      "EmailID": "dp@marutic.com",
+      "ContactPersonName": "Dinesh Patel",
+      "WebLink": "marutic.com",
+      "CreatedDate": "27-Feb-2024",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 30
+    },
+
+    {
+      "CourierIDEncrypted": "wLG2B3nx+Qg=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "SHREE MAHAVIR COURIER SERVICE PVT LTD",
+      "CourierAddress": "LL-22 GOKUL COMPLEX(SANKALP RESTURANT BLD, Drive In Rd, opp. GURUKUL TEMPLE, Memnagar, Ahmedabad, Gujarat 380052",
+      "CountryCode": "+91",
+      "MobileNo": "7789546332",
+      "EmailID": "info@shreemahavircourier.co.in",
+      "ContactPersonName": "Guru bhai",
+      "WebLink": "http://shreemahavircourier.com/",
+      "CreatedDate": "30-Sep-2023",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 31
+    },
+
+    {
+      "CourierIDEncrypted": "hVCLbcYPLRA=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "Shree Narayan Cargo",
+      "CourierAddress": "fsfsdfj",
+      "CountryCode": "+91",
+      "MobileNo": "8585965854",
+      "EmailID": "bhbhbhba@in.com",
+      "ContactPersonName": "Sharesing Narayan",
+      "WebLink": "fdfsf",
+      "CreatedDate": "03-Oct-2023",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 32
+    },
+
+    {
+      "CourierIDEncrypted": "lrQ+Ao+IEjI=",
+      "CompanyIDEncrypt": "lrQ+Ao+IEjI=",
+      "BranchIDEncrypt": "lrQ+Ao+IEjI=",
+      "CompanyName": "Appegic LIMS",
+      "BranchName": "Appegic DDK",
+      "CourierName": "Tirupati Courier",
+      "CourierAddress": "Shop No 10, Aakar Complex, near Alfa Cycle Zone.",
+      "CountryCode": "+91",
+      "MobileNo": "9909977475",
+      "EmailID": "Tirupati@gmail.com",
+      "ContactPersonName": "Tushar Bhai",
+      "WebLink": "http://www.shreetirupaticourier.net/",
+      "CreatedDate": "18-Sep-2023",
+      "IsActive": true,
+      "IsDelete": false,
+      "RecordCount": 33,
+      "RowNo": 33
+    }
+  ],
+  "TotalRecordCount": 33,
+  "IsSuccess": true,
+  "EncryptID": "bC60drW4sLI=",
+  "Message": "Record found."
+}
+
+  // eslint-disable-next-line
+    {/*
+    <div style = {{ margin: '5rem 0' }} >
+      <div className="d-flex flex-wrap-wrap">
+        
+        <div className="row" style={{ width: '100%', borderBottom: '1px solid #ccc', textAlign: 'left',}} >
+          <div className="col">
+            <div className="d-flex flex-wrap" >
+              <div style = {{  border: '1px solid', boxShadow: '5px 5px 5px #BBE2EC', borderRadius: '10px', backgroundColor: 'white', float: 'center', padding: '4vw', boxSizing: 'border-box', marginLeft: '0.5rem' }} >
+                
+                <div className="row" style={{ borderBottom: '1px solid #ccc', marginBottom: '1.56rem', textAlign: 'left',}} >
+                  <h4> {title} Courier </h4>
+                </div>
+
+                <div className="row" style={{ textAlign: 'left',}} >
+                  <form onSubmit={formik.handleSubmit} >
+                    <div className="row" style={{ borderBottom: '1px solid #ccc', marginBottom: '1.56rem', }} >
+                      
+                      <div className="col-md-3 mb-3" >
+                        <label htmlFor="crrName"> Courier Name <span className="text-danger">*</span> </label>
+                        <input type="text" id="crrName" name="crrName" {...formik.getFieldProps('crrName')} placeholder=" Enter Courier Name " className="form-control" />
+                        <p className="text-danger"> {formik.errors.crrName && formik.touched.crrName && formik.errors.crrName } </p>
+                      </div>
+
+                      <div className="col-md-3 mb-3" >
+                        <label htmlFor="crrContactName"> Contact Person Name <span className="text-danger">*</span> </label>
+                        <input type="text" id="crrContactName" name="crrContactName" {...formik.getFieldProps('crrContactName')} placeholder=" Enter Contact Person Name " className="form-control" />
+                        <p className="text-danger"> {formik.errors.crrContactName && formik.touched.crrContactName && formik.errors.crrContactName } </p>
+                      </div>
+
+                      <div className="col-md-3 mb-3" >
+                        <label htmlFor="crrMobile"> Mobile No <span className="text-danger">*</span> </label>
+                        <input type="tel" id="crrMobile" name="crrMobile" maxLength="15" {...formik.getFieldProps('crrMobile')} 
+                          onChange={(e) => { 
+                              const { value } = e.target;
+                            if (!/^\+?[0-9]*$/.test(value)) 
+                              {
+                                e.preventDefault();
+                                return;
+                              }
+                              formik.handleChange(e);
+                          }} placeholder="Enter Mobile No" className="form-control" />
+                        <p className="text-danger"> {formik.errors.crrMobile && formik.touched.crrMobile && formik.errors.crrMobile } </p>
+                      </div>
+
+                      <div className="col-md-3 mb-3" >
+                        <label htmlFor="crrEmail"> Email <span className="text-danger">*</span> </label>
+                        <input type="text" id="crrEmail" name="crrEmail"  {...formik.getFieldProps('crrEmail')} placeholder=" Enter Email " className="form-control" />
+                        <p className="text-danger"> {formik.errors.crrEmail && formik.touched.crrEmail && formik.errors.crrEmail } </p>
+                      </div>
+
+                      <div className="col-md-3 mb-3" >
+                        <label htmlFor="crrAddress"> Address <span className="text-danger">*</span> </label>
+                        <textarea rows='3' id="crrAddress" name="crrAddress" {...formik.getFieldProps('crrAddress')} placeholder=" Enter Address " className="form-control" />
+                        <p className="text-danger"> {formik.errors.crrAddress && formik.touched.crrAddress && formik.errors.crrAddress } </p>
+                      </div>
+
+                      <div className="col-md-3 mb-3" >
+                        <label htmlFor="crrWeb"> Web Link <span className="text-danger">*</span> </label>
+                        <input type="text" id="crrWeb" name="crrWeb" {...formik.getFieldProps('crrWeb')} placeholder=" Enter WebLink " className="form-control" />
+                        <p className="text-danger"> {formik.errors.crrWeb && formik.touched.crrWeb && formik.errors.crrWeb } </p>
+                      </div>
+
+                    </div>
+
+                    <div className="row" style={{ borderBottom: '1px solid #ccc', }} >
+                      <div className="col-md-3 mb-3" >
+                        <button type="submit" className="btn btn-light btn-outline-success mx-2" > {button} </button>
+                        <button type="button" onClick={() => {
+                          navigate('/Courier'); 
+                        }} className="btn btn-light btn-outline-success mx-2" > Cancel </button>
+                      </div>
+                    </div>
+
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    */}

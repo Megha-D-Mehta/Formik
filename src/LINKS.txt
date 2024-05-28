@@ -1,0 +1,292 @@
+https://formik.org/docs/api/formik
+
+https://reacthookform.caitouyun.com/api/useform/setvalue/
+https://legacy.react-hook-form.com/v5/api/#setValue
+
+
+<Link /> https://www.kindacode.com/article/react-router-passing-data-states-through-links/
+
+
+LINKS
+
+
+https://emaillistvalidation.com/blog/mastering-email-validation-for-yup-elevate-your-form-validation-game/#:~:text=Here%20are%20some%20common%20email%20validation%20rules%20you,define%20a%20custom%20regex%20pattern%20for%20email%20validation.
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background
+
+import React, { useState, useEffect, } from 'react';
+https://formik.org/docs/tutorial
+
+https://formik.org/docs/guides/validation
+
+
+https://xerosource.com/pass-value-from-one-page-to-another-page-in-react/
+
+https://formik.org/docs/tutorial
+	
+	Reducing Boilerplate => getFieldProps()
+
+		return (
+			<form onSubmit={formik.handleSubmit}>
+				<label htmlFor="firstName">First Name</label>
+				<input
+					id="firstName"
+					name="firstName"
+					type="text"
+=>					onChange={formik.handleChange}
+=>					onBlur={formik.handleBlur}
+=>					value={formik.values.firstName}
+				/>
+				{formik.touched.firstName && formik.errors.firstName ? (
+					<div>{formik.errors.firstName}</div>
+				) : null}
+
+				<label htmlFor="email">Email Address</label>
+				<input 
+					id="email" 
+					type="email" 
+=>					{...formik.getFieldProps('email')}
+				/>
+				{formik.touched.email && formik.errors.email ? (
+					<div>{formik.errors.email}</div>
+				) : null}
+
+				<button type="submit">Submit</button>
+			</form>
+		);
+
+
+	Leveraging React Context
+
+		import React from 'react';
+		import { useFormik } from 'formik';
+
+		const FormikContext = React.createContext({});
+
+		// Place all of what’s returned by useFormik into context
+		export const Formik = ({ children, ...props }) => {
+		  	const formikStateAndHelpers = useFormik(props);
+		  	return (
+				<FormikContext.Provider value={formikStateAndHelpers}>
+			  		{typeof children === 'function' ? children(formikStateAndHelpers) : children}
+				</FormikContext.Provider>
+		  	);
+		};
+
+
+
+		// <input className="form-input" placeHolder="Jane"  />
+		<Field name="firstName" className="form-input" placeholder="Jane" />
+
+		// <textarea className="form-textarea"/></textarea>
+		<Field name="message" as="textarea" className="form-textarea" />
+
+		// <select className="my-select"/>
+		<Field name="colors" as="select" className="my-select">
+		  	<option value="red">Red</option>
+		  	<option value="green">Green</option>
+		  	<option value="blue">Blue</option>
+		</Field>
+
+
+MAIN
+
+<Form>
+	<label htmlFor="firstName">First Name</label>
+	<Field name="firstName" type="text" />
+	<ErrorMessage name="firstName" />
+
+	<label htmlFor="lastName">Last Name</label>
+	<Field name="lastName" type="text" />
+	<ErrorMessage name="lastName" />
+
+	<label htmlFor="email">Email Address</label>
+	<Field name="email" type="email" />
+	<ErrorMessage name="email" />
+
+	<button type="submit">Submit</button>
+</Form>
+
+
+import { Formik, Form, Field, ErrorMessage } from 'formik';
+
+return (
+			<Formik
+				initialValues={{ firstName: '', lastName: '', email: '' }}
+				validationSchema={Yup.object({
+					firstName: Yup.string().max(15, 'Must be 15 characters or less').required('Required'),
+					email: Yup.string().email('Invalid email address').required('Required'),
+				})}
+				onSubmit={(values, { setSubmitting }) => {
+					setTimeout(() => {
+						alert(JSON.stringify(values, null, 2));
+						setSubmitting(false);
+					}, 400);
+				}}
+			>
+				<Form>
+					<label htmlFor="firstName">First Name</label>
+					<Field name="firstName" type="text" />
+					<ErrorMessage name="firstName" />
+
+					<label htmlFor="lastName">Last Name</label>
+					<Field name="lastName" type="text" />
+					<ErrorMessage name="lastName" />
+
+					<label htmlFor="email">Email Address</label>
+					<Field name="email" type="email" />
+					<ErrorMessage name="email" />
+
+					<button type="submit">Submit</button>
+				</Form>
+			</Formik>
+		);
+
+
+
+
+https://www.kindacode.com/article/react-router-passing-data-states-through-links/
+
+https://stackoverflow.com/questions/47484406/how-to-pass-multiple-state-through-link-in-reactjs#:~:text=way%201%3A%20This%20is%20how%20you%20will%20send,%3D%20stateData%20%5B%22item%22%5D%20var%20styleList%20%3D%20stateData%20%5B%27styleList%27%5D
+https://dev.to/medaminefh/passing-data-with-react-router-using-link-1h39#:~:text=Passing%20Data%20with%20React%20Router%20using%20Link%201,React%20context%203%203.%20Using%20React%20Router%27s%20Link
+https://stackoverflow.com/questions/52404369/passing-data-using-state-in-link-tag-in-react-router
+
+
+https://www.kindacode.com/article/react-router-passing-data-states-through-links/
+
+import { Link } from "react-router-dom";
+const HomePage = (props) => {
+  // this is for the first Link
+  const data1 = {
+    from: "Link #1",
+    message: "Welcome to KindaCode.com",
+    timestamp: Date.now(),
+  };
+  const data2 = {
+    from: "Link #2",
+    message: "Just another message",
+    timestamp: Date.now(),
+  };
+  return (
+    <>
+      <h1>Home Page</h1>
+      <p><Link to="/about" state={data1}>Go to About Page (Link #1)</Link></p>
+      <p><Link to="/about" state={data2}>Go to About Page (Link #2)</Link></p>
+    </>
+  );
+};
+export default HomePage;
+
+
+
+
+
+// src/AboutPage.js
+import { useLocation, Link } from "react-router-dom";
+const AboutPage = (props) => {
+  const location = useLocation();
+  const state = location.state;
+  console.log(state);
+  return (
+    <>
+      <h1>This is About page</h1>
+      {state && (
+        <div>
+          <h3>Passed data:</h3>
+          <p>From: {state.from}</p>
+          <p>Message: {state.message}</p>
+          <p>Timestamp: {state.timestamp}</p>
+        </div>
+      )}
+      <hr />
+      <Link to="/">Go Home</Link>
+    </>
+  );
+};
+export default AboutPage
+
+
+
+// App.js
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./HomePage";
+import AboutPage from "./AboutPage";
+function App() {
+  return (
+    <BrowserRouter>
+      <div style={{padding: 30}}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+  );
+}
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <Link to ={{
+// 	// pathname: "/EventDetailsUser", 
+// 	state: { 
+// 		bucket_id: !this.state.selected_bucket.id ? this.state.recent_bucket : this.state.selected_bucket, 
+// 		eventId: event.id
+// 	}
+// }} >
+
+// let stateData = props.location.state
+// var styleUpdate = stateData["item"]
+// var styleList = stateData['styleList']
+
+// import { useLocation } from 'react-router-dom';
+
+// /*...*/
+
+// const location = useLocation();
+// const data = location.state;
+// console.log(data);
+

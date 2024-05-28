@@ -1,0 +1,123 @@
+if totalresult === 0 then dnone
+if pgNo * pgSize >= totalResults then dnone
+
+
+
+show only 3 buttons & if srchval is available show 2 or 3
+
+login api set values to windows localstorage & get token from localstorage
+
+
+
+
+
+
+
+
+
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_atob
+
+
+setsrchval  on next click it should show next results
+
+
+srchval ne search value ma muki result/pagesize + 1
+show limited page number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    const { courierID } = useParams();
+    // const { paramsCourierID } = window.atob(useParams());
+
+    console.log("===== enVal  " + window.atob(courierID));
+
+    // let courierID = window.atob(paramsCourierID);
+    // let courierID = paramsCourierID;
+
+    // console.log("======= paramsCourierID " + paramsCourierID);
+    console.log("======= courierID " + courierID);
+
+
+    // const { courierID } = useParams();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+done		add search button 
+done		trim space not pattern
+done		form full page 
+done		encode url courierid remove /
+
+https://stackoverflow.com/questions/60423402/automatically-trim-white-spaces-with-yup-and-formik
+https://stackoverflow.com/questions/33682536/how-can-trim-spaces-in-all-inputs-without-adding-methods-or-classes
+
+	crrName: Yup.string()
+			.test( '', 'Courier Name is Required Field!', value => value.trim() )
+			.required('Courier Name is Required Field!'),
+
+
+	let spc = text.split(/[ ]+/);
+	setText(spc.join(" "));
+
+
+
+https://stackoverflow.com/questions/53948672/how-to-properly-encode-web-api-parameter-in-url-path
+
+https://stackoverflow.com/questions/16622504/escaping-ampersand-in-url
+        <Link className="fa-regular fa-pen-to-square mx-1 my-2" to={`/EditCourier/${encodeURIComponent(record.CourierIDEncrypted)}`} style={{ color: '#8fa0bc' }} ></Link>
+		
+
+
+value => value.trim().split(/[ ]+/).join(" ") !== '' 
+value => value.trim().replace(/\s{2,}/g, ' ') !== ''
+
+%2F
+
+done		search button from any page
+		encode apiUrl using windows.atob & windows.btoa
+		sorting couriername asc desc
